@@ -40,6 +40,7 @@ pt-BR:
     models:
       room: Quarto
       user: Usuário
+      review: Avaliação
     attributes:
       user:
         bio: Biografia
@@ -67,8 +68,22 @@ pt-BR:
   flash:
     alert:
       needs_login: Você precisa estar logado para continuar
-    notice:
+    notice:      
+      room_updated: Quarto atualizado com sucesso!
       signed_in: Login efetuado com sucesso!
       signed_out: Logout efetuado com sucesso. Até logo!
       already_logged_in: Você já está logado.
-        
+  rooms:
+    index:
+      title: Quartos disponíveis
+    room:
+      owner_html: '&mdash; %{owner} (%{when})'
+      edit: Editar
+      destroy: Remover
+    review_form:
+      login_to_review: Faça o login para avaliar quartos
+    review:
+      stats:
+        zero: Não há avaliações
+        one: '%{average}/%{max} (1 avaliação)'
+        other: '%{average}/%{max} (%{count} avaliações)'
