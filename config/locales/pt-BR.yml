@@ -53,6 +53,7 @@ pt-BR:
         description: Descrição
         location: Localização
         title: Título
+        picture: Foto
   activemodel:
     attributes:
       user_session:
@@ -76,6 +77,9 @@ pt-BR:
   rooms:
     index:
       title: Quartos disponíveis
+      search_results: Resultados da busca
+    search:
+      search_for: Buscar por...
     room:
       owner_html: '&mdash; %{owner} (%{when})'
       edit: Editar
@@ -85,5 +89,5 @@ pt-BR:
     review:
       stats:
         zero: Não há avaliações
-        one: '%{average}/%{max} (1 avaliação)'
-        other: '%{average}/%{max} (%{count} avaliações)'
+        one: '(1 avaliação)'
+        other: '(%{count} avaliações)'
